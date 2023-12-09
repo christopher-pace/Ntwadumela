@@ -1,0 +1,1 @@
+This directory needs to be empty to mount the encrypted filesystem in.  The directory should be located at /root/fs on your Raspberry Pi.
