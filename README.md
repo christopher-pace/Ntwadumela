@@ -1,7 +1,7 @@
 # Ntwadumela
 Ntwadumela - A Raspberry Pi Implant
 
-Ntwadumela is a custom Raspberry Pi implant that creates a reverse ssh proxy utilizing Ngrok.  You can then drop an implant inside of a network, and communicate with the implant via SSH in another location.  In addition, this implant encrypts its payload file system with a key that is burned when the implant is powered off.  This prevents an “attacker” from gaining access to the implant’s encrypted file system that can contain your payloads, logs, and any other activity that you want protected on the implant.
+Ntwadumela is a custom Raspberry Pi implant that creates a reverse ssh proxy utilizing [Ngrok](https://github.com/inconshreveable/ngrok).  You can then drop an implant inside of a network, and communicate with the implant via SSH in another location.  In addition, this implant encrypts its payload file system with a key that is burned when the implant is powered off.  This prevents an “attacker” from gaining access to the implant’s encrypted file system that can contain your payloads, logs, and any other activity that you want protected on the implant.
 
 This project has several downloads: an encrypted file system image, Ntwadumela BASH/Perl scripts, and a PHP application that you will need to upload to a public-facing web server.  If this project builds enough interest, I may also upload complete Raspberry Pi images.
 
