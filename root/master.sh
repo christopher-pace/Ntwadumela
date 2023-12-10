@@ -8,7 +8,7 @@
 #
 #  
 sleep 60 #Sleep for a minute to let wifi connect, etc.s
-curl https://cyka.win/ntwadumela/key.key -o /root/key.key
+curl https://YOUR_DOMAIN/ntwadumela/key.key -o /root/key.key
 cryptsetup luksOpen /root/fs.img fs --key-file /root/key.key
 mount /dev/mapper/fs /root/fs
 rm /root/key.key
