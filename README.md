@@ -10,3 +10,5 @@ To get started, you will first need a web server to host Ntwadumela’s encrypti
 Next, you will need a working Raspberry Pi with Perl installed (which it is by default).  Mount the Raspberry Pi file system, and copy the etc/rc.local file to /etc/rc.local on the Raspberry Pi.  Next, copy the files in root to /root (including the empty folder ‘fs’, which will be used as a mount point).  Finally, unmount your Raspberry Pi file system.
 
 You may want to replace the file system image with your own LUKS encrypted file system image, since literally anyone can download the “private” key from GitHub.  For those reasons, the ntwadumela.pl file has been copied to the main GitHub project folder.  You will also need to place Ngrok on the filesystem image, which can be downloaded from  [https://github.com/inconshreveable/ngrok](https://github.com/inconshreveable/ngrok).
+
+An excellent tutorial for how to create your own encrypted volume and key is located here: [https://www.cyberciti.biz/hardware/cryptsetup-add-enable-luks-disk-encryption-keyfile-linux/](https://www.cyberciti.biz/hardware/cryptsetup-add-enable-luks-disk-encryption-keyfile-linux/).
