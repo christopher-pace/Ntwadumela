@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 $fs = '/root/fs';
-$auth = 'YOUR_API_KEY'; #Add your API key.
+$auth = 'YOUR_API_KEY'; #Add your Ngrok API key.
 $c2_callback_url = 'https://YOUR_SITE/ntwadumela/ntwadumela.php'; #Change to your callback URL (not really C2, but you get the drift)
 `rm -f $fs/log.txt`;
 if (`ping -c 1 google.com`){
